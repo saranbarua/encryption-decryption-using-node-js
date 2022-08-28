@@ -11,7 +11,7 @@ mongoose.Promise = require('bluebird');
 app.use(bodyParser.json());
 
 mongoose.connect(
-  "mongodb+srv://sarandemo:as4wSNDeNl4HO9xB@cluster0.swixu.mongodb.net/saran?retryWrites=true&w=majority",
+  "mongodb+srv://localhost:8000?retryWrites=true&w=majority",
   () => {
     console.log("connected");
   },
