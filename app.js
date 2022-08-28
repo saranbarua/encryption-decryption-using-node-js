@@ -5,7 +5,6 @@ const app = express();
 const Cryptr = require("cryptr");
 const User = require("./user");
 const cryptr = new Cryptr("myTotallySecretKey");
-const bluebird = require('promise')
 mongoose.Promise = require('bluebird');
 
 
