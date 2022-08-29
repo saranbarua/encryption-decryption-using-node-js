@@ -7,7 +7,6 @@ const User = require("./user");
 const cryptr = new Cryptr("myTotallySecretKey");
 mongoose.Promise = require('bluebird');
 
-
 app.use(bodyParser.json());
 
 mongoose.connect(
